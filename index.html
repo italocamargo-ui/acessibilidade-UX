@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Segurança Digital para Idosos</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- BARRA DE ACESSIBILIDADE -->
+    <nav class="barra-acessibilidade" aria-label="Controles de Acessibilidade">
+        <button id="btnAumentaTexto" class="botao-controle" title="Aumentar texto">A+ Aumentar</button>
+        <button id="btnDiminuiTexto" class="botao-controle" title="Diminuir texto">A- Diminuir</button>
+        <button id="btnVoz" class="botao-controle botao-leitura">Ouvir Página</button>
+    </nav>
+
+    <!-- CONTEÚDO PRINCIPAL (Lido pelo assistente de voz) -->
+    <main>
+        <section class="banner">
+            <h1>Segurança Digital para Idosos</h1>
+            <p>Aprenda a navegar na internet de forma segura, reconhecer golpes e proteger seus dados.</p>
+            <button id="btnAjuda" class="botao-ajuda">Precisa de Ajuda?</button>
+        </section>
+
+        <!-- ESTRUTURA DO MODAL -->
+        <div id="modalAjuda" class="modal-container">
+            <div class="modal-conteudo">
+                <h2>Como podemos ajudar?</h2>
+                <p>Se você tem dúvidas sobre senhas, e-mails ou mensagens suspeitas, consulte nosso guia rápido abaixo ou ligue para o suporte.</p>
+                <button id="btnFecharModal" class="botao-fechar">Fechar</button>
+            </div>
+        </div>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
